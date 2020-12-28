@@ -3,6 +3,7 @@ import time
 import math
 from multiprocessing import Process
 
+
 begin_time = time.time() + 3
 fly = 0
 ww = 480
