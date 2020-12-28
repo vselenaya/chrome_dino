@@ -26,7 +26,7 @@ class chrome_dino:
         self.base = based - math.ceil(565 * self.height / 1080)
         self.current_colour = self.main_colour
         self.add_view = self.view_distance // 6  # добавочная область обзора, см. find_hurdle
-        self.time_coefficient = 4.9 * self.length / 1920
+        self.time_coefficient = 4.95 * self.length / 1920
 
         self.sc700 = math.ceil(700 * self.length / 1920)
         self.sc239 = math.ceil(239 * self.length / 1920)
